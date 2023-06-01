@@ -4,7 +4,7 @@
 
 first you need to install docker on you machine
 ```bash
-git clone https://github.com/swautelet/webserv.git && cd webserv && make && ./webserv ./conf/nginx.conf
+git clone https://github.com/swautelet/ft_transcendance.git && cd ft_transcendance && make
 ```
 
 ## Topics -- 🗝
