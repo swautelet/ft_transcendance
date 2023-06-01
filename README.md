@@ -1,9 +1,13 @@
 # ft_transcendance
 
-## Usage -- 👈
+## Usage (Docker and Makefile required) -- 👈
 
 first you need to install docker on you machine
-Then you need to set a .env with tsome variable required by the project like this 
+Then you have to clone this repo
+```bash
+git clone https://github.com/swautelet/ft_transcendance.git && cd ft_transcendance
+```
+Then you need to set a .env with some variable required by the project like this 
 ```bash
 # Database Environment Variables
 POSTGRES_USERNAME=myUsername
@@ -20,9 +24,9 @@ CLIENT_SECRET="cant give on github"
 JWT_SECRET=your_secret_key_here
 TWOFA_SECRET=your_2fa_secret_key_here
 ```
-
+and finally launch the project with a simple make
 ```bash
-git clone https://github.com/swautelet/ft_transcendance.git && cd ft_transcendance && make
+make
 ```
 
 ## Topics -- 🗝
