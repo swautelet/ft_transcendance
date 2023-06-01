@@ -3,6 +3,24 @@
 ## Usage -- 👈
 
 first you need to install docker on you machine
+Then you need to set a .env with tsome variable required by the project like this 
+```bash
+# Database Environment Variables
+POSTGRES_USERNAME=myUsername
+POSTGRES_PASSWORD=myPassword
+POSTGRES_DB_NAME=myDatabase
+
+PGADMIN_DEFAULT_EMAIL=test@email.com
+PGADMIN_DEFAULT_PASSWORD=emailmdp
+
+# OAuth2 Environment Variables
+CLIENT_ID="cant give it on github"
+CLIENT_SECRET="cant give on github"
+
+JWT_SECRET=your_secret_key_here
+TWOFA_SECRET=your_2fa_secret_key_here
+```
+
 ```bash
 git clone https://github.com/swautelet/ft_transcendance.git && cd ft_transcendance && make
 ```
